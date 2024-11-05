@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+
+:root {
+  --ap-brand: #dodgerblue;
+  --ap-brand-rgb: 248, 54, 145;
+  --ap-dark: #110e12;
+  --ap-body: #110e12;
+  --f-main: "Unbounded", sans-serif;
+  --transition: all .6s cubic-bezier(.165, .84, .44, 1);
+  --shadow: 0px, 15px, 30px, rgba(0,0,0,0.1);
+}
+
+body {
+  font-family: var(--f-main);
+  color: #f0f0f0;
+}
+
+.btn-brand {
+  background-color: dodgerblue;
+}
+
+.section-title {
+   max-width: 400px;
+   margin: 0 auto 60px auto;
+ }
+ 
+.section-title .line {
+  width: 375px;
+  height: 1px;
+  background-color: lightgray;
+  display: inline-block;
+}
+
+.about-icon {
+  display: inline-flex;
+  jusitfy-content: center;
+  align-items: center
+}
+
+.section-title .line2 {
+  width: 375px;
+  height: 1px;
+  background-color: lightgray;
+  display: inline-block;
+  
+.footer .top {
+  background-color: dodgerblue;
+  padding-top: 85px;
+}
+
+.footer h4 {
+  font-size: 50%;
+  color: #f0f0f0;
+}
+
+.overlay-text {
+  position: center;
+  transform: translate(-50%, -50%);
+  color: #f0f0f0;
+}
